@@ -2,6 +2,5 @@
 Collection of Excel interactive dashboards
 
 ### 🚀 Project File
-Click the link below to download the project file:
 
-> **[📁 Open E-Commerce Dashboard](ecommerce/Viva_fashion_dashboard.jpg)**
+> **[📁 Open E-Commerce README](Ecommerce_excel_dashboard/README.md)**
