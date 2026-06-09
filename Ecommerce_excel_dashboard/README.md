@@ -1,30 +1,46 @@
-Project Title: Interactive E-Commerce Sales Dashboard (Viva California)
-📖 Overview
-This project features a comprehensive, interactive business dashboard built in Microsoft Excel. The dashboard was designed to analyze 3 months of e-commerce transaction data for a fashion brand ("Viva California"). It enables stakeholders to track key performance indicators (KPIs), visualize sales trends, and filter data by order source and customer demographics.
+# 📈 Interactive E-Commerce Sales Dashboard
 
-🚀 Key Features
-Dynamic KPIs: Tracks total orders, revenue, average rating, and delivery efficiency.
+![Dashboard Preview](dashboard_preview.png)
 
-Interactive Filters: Uses Slicers to allow users to toggle between different order modes (App, Website, etc.) and customer segments.
+## 📖 Project Overview
+This project delivers a **fully interactive business intelligence dashboard** developed entirely in Microsoft Excel. Designed to provide actionable insights for a retail fashion brand, the dashboard translates raw transaction data into a cohesive visual narrative. It empowers stakeholders to monitor business health, track sales performance, and identify customer trends without the need for expensive or specialized BI software.
 
-Data Visualization: Includes trend lines for weekly performance, heat maps for regional analysis (county level), and bar/doughnut charts for product popularity and gender splits.
+---
 
-Automation: Built using Pivot Tables to ensure that the dashboard updates automatically when new data is added to the source.
+## 🎯 Business Objectives
+The primary goal was to transform three months of transactional data into a dynamic reporting tool that answers critical business questions:
+* **Overall Performance:** Tracking key KPIs such as Total Orders, Total Revenue, Average Rating, and Delivery Efficiency.
+* **Trend Analysis:** Visualizing weekly revenue and quantity demand over a 13-week period.
+* **Customer Segmentation:** Analyzing purchase behavior by gender and sales channel (e.g., App, Website, Retail Partners).
+* **Regional Insights:** Geospatial mapping of order volume and revenue by county.
 
-🛠️ Tools & Techniques Used
-Microsoft Excel: Advanced Pivot Tables & Pivot Charts.
+---
 
-Data Modeling: Calculated columns for custom metrics (Days to Deliver, Week Numbering).
+## 🛠 Technical Implementation
+* **Data Processing:** Leveraged **Pivot Tables** for efficient data aggregation and dynamic summarization.
+* **Custom Metrics:** Developed custom formulas to calculate:
+    * *Days to Deliver* (Ship Date - Order Date)
+    * *Weekly Time-Series* (using `WEEKNUM`)
+    * *Data Normalization* (using `IF` logic to clean gender and category labels).
+* **Advanced Visuals:**
+    * **Linked Pictures:** Used for dynamic matrix tables that update instantly.
+    * **Heat Maps:** Applied conditional formatting to visualize geographic performance.
+    * **Interactive UI:** Configured **Slicers** with cross-report connections to allow seamless filtering across all charts.
+* **Dashboard Design:** Created a professional, clean user interface using shape-based layouts and a cohesive corporate color scheme.
 
-Advanced Formatting: Conditional formatting (heat maps), linked pictures for dynamic matrices, and shape-based UI design.
+---
 
-Interactivity: Slicer connections across multiple pivot tables for a unified report.
+## 🚀 How to Use
+1. **Clone or Download** this repository.
+2. Open the file `E-Commerce_Dashboard.xlsx` in **Microsoft Excel**.
+3. Use the **Slicers** located on the dashboard tab to filter data by *Order Mode* or *Customer Gender*.
+4. **Update Data:** If you add new data to the `Data` sheet, go to the **Data** tab in the Excel ribbon and click **"Refresh All"** to update the entire dashboard.
 
-📊 How to Use
-Download the .xlsx file from the /dashboard folder.
+---
 
-Open the file in Microsoft Excel.
-
-Use the Slicers on the dashboard tab to filter the data interactively.
-
-If you add new data to the Data sheet, simply right-click any chart and select "Refresh" to update the entire dashboard.
+## 📁 Repository Structure
+```text
+├── /data                # Raw transaction data and processing sheets
+├── /dashboard           # Final Excel Dashboard file (.xlsx)
+├── dashboard_preview.png # Screenshot for the project showcase
+└── README.md            # Project documentation
