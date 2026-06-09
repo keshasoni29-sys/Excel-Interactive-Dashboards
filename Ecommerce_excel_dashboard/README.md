@@ -1,6 +1,6 @@
 # 📈 Interactive E-Commerce Sales Dashboard
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](Viva_fashion_dashboard.jpg)
 
 ## 📖 Project Overview
 This project delivers a **fully interactive business intelligence dashboard** developed entirely in Microsoft Excel. Designed to provide actionable insights for a retail fashion brand, the dashboard translates raw transaction data into a cohesive visual narrative. It empowers stakeholders to monitor business health, track sales performance, and identify customer trends without the need for expensive or specialized BI software.
